@@ -1,0 +1,6 @@
+<h1>Home</h1>
+<ul *ngIf="users">
+    <li *ngFor="let key of users">
+        <div>{{key.name}}</div>
+    </li>
+</ul>
